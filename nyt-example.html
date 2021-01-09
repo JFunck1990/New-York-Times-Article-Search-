@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  
+
+  <title>New York Times Search</title>
+  <!-- Bootstrap CSS CDN  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+
+  <!-- Font Awesome CSS Icons (For cool glyphicons) -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+
+  <!--<link rel="stylesheet" href="style.css" />-->
+<link rel="stylesheet" href="style.css">
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <header> <i class="fa fa-newspaper-o"></i> New York Times Search </header>
+
+  <div class="container">
+    <section class="row">
+      <section class="col-md-12">
+        <h6><i class="fa fa-list-alt"></i> Search Parameters</h6>
+        <form>
+
+            <div class="mb-3">
+              <label for="TextInput" class="form-label" >Search Term:</label>
+              <input type="text" class="form-control" placeholder="" id="searchterm">
+            </div>
+            
+            <div class="mb-3">
+              <label for="TextInput" class="form-label">Number of Records to Retrieve:</label>
+              <select class="form-control mb-3" aria-label="Default select example">
+                <option selected>Open this select menu</option>
+                <option value="1">5</option>
+                <option value="2">10</option>
+                <option value="3">15</option>
+              </select>
+            </div>
+
+            <div class="mb-3">
+              <label for="TextInput" class="form-label">Start Year (Optional):</label>
+              <input type="text" class="form-control" placeholder="">
+            </div>
+
+            <div class="mb-3">
+              <label for="TextInput" class="form-label">End Year (Optional):</label>
+              <input type="text" class="form-control" placeholder="">
+            </div>
+
+            <button type="submit" id="run-search" class="btn btn-light"><i class="fa fa-search"></i>Search</button>
+
+            <button id="button2" type="submit" class="btn btn-light"><i class="fa fa-trash"></i> Clear Results</button>
+  
+        </form>
+      </section>
+    </section>
+
+  
+    <section class="row">
+        <section class="col-md-12">
+          <h6><i class="fa fa-newspaper-o"></i> Top Articles</h6>
+          <form action="">
+          <div class="article-section">
+            <!-- Articles will appear here. -->
+          </div>
+        </form>
+        </section>
+    </section>
+
+
+    
+
+  </div>
+
+  <!-- jQuery JS -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+  <!-- Code to the JavaScript File -->
+  <script src="nytCode.js"></script>
+
+</body>
+
+</html>

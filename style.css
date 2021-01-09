@@ -1,0 +1,46 @@
+
+header{
+    background: #172f51;
+    font: 35px white;
+    color: white;
+    padding: 15px; 
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: bolder;
+}
+
+form{
+    margin-top: 0px;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    padding-top: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+div{
+    padding: 5px;
+}
+
+h6{
+    background: #ececec;
+    padding: 10px;
+    margin: 0;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+legend {
+    margin-bottom: 10px;
+    font: 10px;
+    color: black;
+    background: #e0e0e0;
+    margin: 0px;
+    padding: 0px;
+}
+
